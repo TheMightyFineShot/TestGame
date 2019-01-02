@@ -388,12 +388,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapon:
     weaponName: Bitch Killa 2.0
-    damage: 10
+    damage: 40
     range: 200
   cam: {fileID: 1609811260}
   mask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1335
 --- !u!114 &3580667480999511946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -406,6 +406,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13fc5730802d1a647b7efd26e7135b81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 100
+  disableOnDeath:
+  - {fileID: 619686077}
+  - {fileID: 4481762576919703107}
 --- !u!1 &714526346
 GameObject:
   m_ObjectHideFlags: 0
